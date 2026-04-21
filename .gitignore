@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local-only config (contains SDK path + API keys)
+local.properties
+
+# Signing
+*.keystore
+*.jks
+
+# Secrets
+.env
+secrets.properties
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+# Copy this file to local.properties and fill in values as each phase is reached.
+# local.properties is gitignored - DO NOT commit it.
+
+# Android SDK location. Android Studio auto-populates this on first sync.
+# sdk.dir=/Users/you/Library/Android/sdk
+
+# ---- Cloud STT providers ----
+# Groq (Phase 2): https://console.groq.com/keys
+GROQ_API_KEY=
+
+# Deepgram (Phase 5): https://console.deepgram.com/
+DEEPGRAM_API_KEY=
+
+# AssemblyAI (Phase 5): https://www.assemblyai.com/dashboard/
+ASSEMBLYAI_API_KEY=
+
+# ---- Diarization ----
+# Pyannote on Hugging Face Space (Phase 3). Full URL, e.g. https://your-name-pyannote.hf.space
+PYANNOTE_HF_SPACE_URL=
